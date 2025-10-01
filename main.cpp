@@ -4,7 +4,10 @@
 int main(int argc, char** argv) {
  char* str = (char*)malloc(sizeof(char) * SIZE);
  printf("Введите своё имя:\n");
+<<<<<<< HEAD
  str = gets(str);
- printf("Привет, %s", str);
+ puts("Привет");
+ puts(str)
+>>>>>>> f6ed832 (Исправлено приветствие)
  return 0;
 }
